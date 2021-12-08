@@ -1,7 +1,7 @@
-<h1 align="left"><img src="./images/amazon-vpc.png" width="35" height="35" alt="amazon-vpc"/>dev-us-west-2-vpc</h1>
+<h1 align="center">Welcome to dev-us-west-2-vpc 👋</h1>
 <p>
   <a href="./LICENSE.md" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-LICENSE.md-yellow.svg" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
   <a href="https://twitter.com/DevopsPleb" target="_blank">
     <img alt="Twitter: DevopsPleb" src="https://img.shields.io/twitter/follow/DevopsPleb.svg?style=social" />

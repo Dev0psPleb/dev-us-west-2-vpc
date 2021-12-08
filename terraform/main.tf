@@ -1,3 +1,4 @@
+# us-west-2
 terraform {
   backend "remote" {
     organization = "BrynardSecurity"
@@ -9,7 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-2"
+  region = "us-west-2"
 }
 
 variable "vpc_name" {
@@ -18,7 +19,7 @@ variable "vpc_name" {
 }
 variable "aws_region" {
   description = "Region in which to deploy the VPC."
-  default     = "us-east-2"
+  default     = ""
 }
 variable "aws_account" {
   description = "The AWS Account ID."
