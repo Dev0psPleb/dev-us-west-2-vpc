@@ -19,7 +19,7 @@ variable "vpc_name" {
 }
 variable "aws_region" {
   description = "Region in which to deploy the VPC."
-  default     = "us-east-2"
+  default     = ""
 }
 variable "aws_account" {
   description = "The AWS Account ID."
