@@ -173,7 +173,7 @@ module "hashicorp-vault" {
   # insert the 3 required variables here
   name               = "hashicorp-vault-egress"
   vpc_id             = module.vpc.vpc_id
-  ingress_cidr_block = ["172.25.16.0/20"]
+  ingress_cidr_blocks = ["172.25.16.0/20"]
   ingress_with_cidr_blocks = [
     {
       from_port   = 8200
